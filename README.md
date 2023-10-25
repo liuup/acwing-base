@@ -8,34 +8,34 @@ https://github.com/EndlessCheng/codeforces-go/tree/master
 # 目录
 - 第一讲-基础知识
   - 快速排序
-    - AcWing 785. 快速排序
-    - AcWing 786. 第k个数
+    - [AcWing 785. 快速排序](./chapter1/acwing785.go)
+    - [AcWing 786. 第k个数](./chapter1/acwing786.go)
   - 归并排序
-    - AcWing 787. 归并排序
-    - AcWing 788. 逆序对的数量
+    - [AcWing 787. 归并排序](./chapter1/acwing787.go)
+    - [AcWing 788. 逆序对的数量](./chapter1/acwing788.go)
   - 二分
-    - AcWing 789. 数的范围
-    - AcWing 790. 数的三次方根
+    - [AcWing 789. 数的范围](./chapter1/acwing789.go)
+    - [AcWing 790. 数的三次方根](./chapter1/acwing790.go)
   - 高精度
-    - AcWing 795. 高精度加法
-    - AcWing 792. 高精度减法
-    - AcWing 793. 高精度乘法
-    - AcWing 794. 高精度除法
+    - [AcWing 791. 高精度加法](./chapter1/acwing791.go)
+    - [AcWing 792. 高精度减法](./chapter1/acwing792.go)
+    - [AcWing 793. 高精度乘法](./chapter1/acwing793.go)
+    - [AcWing 794. 高精度除法](./chapter1/acwing794.go)
   - 前缀和与差分
-    - AcWing 795. 前缀和
-    - AcWing 796. 子矩阵的和
-    - AcWing 797. 差分
-    - AcWing 798. 差分矩阵
+    - [AcWing 795. 前缀和](./chapter1/acwing795.go)
+    - [AcWing 796. 子矩阵的和](./chapter1/acwing796.go)
+    - [AcWing 797. 差分](./chapter1/acwing797.go)
+    - [AcWing 798. 差分矩阵](./chapter1/acwing798.go)
   - 双指针算法
-    - AcWing 799. 最长连续不重复子矩阵
-    - AcWing 800. 数组元素的目标和
-    - AcWing 2816. 判断子序列
+    - [AcWing 799. 最长连续不重复子矩阵](./chapter1/acwing799.go)
+    - [AcWing 800. 数组元素的目标和](./chapter1/acwing800.go)
+    - [AcWing 2816. 判断子序列](./chapter1/acwing2816.go)
   - 位运算
-    - AcWing 801. 二进制中1的个数
+    - [AcWing 801. 二进制中1的个数](./chapter1/acwing801.go)
   - 离散化
-    - AcWing 802. 区间和
+    - [AcWing 802. 区间和](./chapter1/acwing802.go)
   - 区间合并
-    - AcWing 803. 区间合并
+    - [AcWing 803. 区间合并](./chapter1/acwing803.go)
 - 第二讲-数据结构
   - 单链表
     - AcWing 826. 单链表
