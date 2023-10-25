@@ -167,7 +167,7 @@ https://github.com/EndlessCheng/codeforces-go
     - AcWing 906. 区间分组
     - AcWing 907. 区间覆盖
   - Huffman树
-    - AcWing 148. 合并果子
+    - [AcWing 148. 合并果子](./chapter6/acwing148.go)
   - 排序不等式
     - AcWing 913. 排队打水
   - 绝对值不等式
