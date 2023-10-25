@@ -67,35 +67,35 @@ https://github.com/EndlessCheng/codeforces-go
     - [AcWing 841. 字符串哈希](./chapter2/acwing841.go)
 - 第三讲-搜索与图论
   - DFS
-    - AcWing 842. 排列数字
-    - AcWing 843. n-皇后问题
+    - [AcWing 842. 排列数字](./chapter3/acwing842.go)
+    - [AcWing 843. n-皇后问题](./chapter3/acwing843.go)
   - BFS
-    - AcWing 844. 走迷宫
-    - AcWing 845. 八数码
+    - [AcWing 844. 走迷宫](./chapter3/acwing844.go)
+    - [AcWing 845. 八数码](./chapter3/acwing845.go)
   - 树与图的深度优先遍历
-    - AcWing 846. 树的重心
+    - [AcWing 846. 树的重心](./chapter3/acwing846.go)
   - 树与图的广度优先遍历
-    - AcWing 847. 图中点的层次
+    - [AcWing 847. 图中点的层次](./chapter3/acwing847.go)
   - 拓扑排序
-    - AcWing 848. 有向图的拓扑排序
+    - [AcWing 848. 有向图的拓扑排序](./chapter3/acwing848.go)
   - Dijkstra
-    - AcWing 849. Dijkstra求最短路1
-    - AcWing 850. Dijkstra求最短路2
+    - [AcWing 849. Dijkstra求最短路 I](./chapter3/acwing849.go)
+    - [AcWing 850. Dijkstra求最短路 II](./chapter3/acwing850.go)
   - Bellman-ford
-    - AcWing 853. 有边数限制的最短路
+    - [AcWing 853. 有边数限制的最短路](./chapter3/acwing853.go)
   - SPFA
-    - AcWing 851. SPFA求最短路
-    - AcWing 852. SPFA判断负环
+    - [AcWing 851. SPFA求最短路](./chapter3/acwing851.go)
+    - [AcWing 852. SPFA判断负环](./chapter3/acwing852.go)
   - Floyd
-    - AcWing 854. Floyd求最短路
+    - [AcWing 854. Floyd求最短路](./chapter3/acwing854.go)
   - Prim
-    - AcWing 858. Prim算法求最小生成树
+    - [AcWing 858. Prim算法求最小生成树](./chapter3/acwing858.go)
   - Kruskal
-    - AcWing 859. Kruskal算法求最小生成树
+    - [AcWing 859. Kruskal算法求最小生成树](./chapter3/acwing859.go)
   - 染色法判断二分图
-    - AcWing 860. 染色法判断二分图
+    - [AcWing 860. 染色法判断二分图](./chapter3/acwing860.go)
   - 匈牙利算法
-    - AcWing 861. 二分图的最大匹配
+    - [AcWing 861. 二分图的最大匹配](./chapter3/acwing861.go)
 - 第四讲-数学知识
   - 质数
     - AcWing 866. 试除法判定质数
