@@ -169,7 +169,7 @@ https://github.com/EndlessCheng/codeforces-go
   - Huffman树
     - [AcWing 148. 合并果子](./chapter6/acwing148.go)
   - 排序不等式
-    - AcWing 913. 排队打水
+    - [AcWing 913. 排队打水](./chapter6/acwing913.go)
   - 绝对值不等式
     - AcWing 104. 货仓选址
   - 推公式
