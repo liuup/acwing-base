@@ -42,29 +42,29 @@ https://github.com/EndlessCheng/codeforces-go/tree/master
   - 双链表
     - AcWing 827. 双链表
   - 栈
-    - AcWing 828. 模拟栈
-    - AcWing 3302. 表达式求值
+    - [AcWing 828. 模拟栈](./chapter2/acwing828.go)
+    - [AcWing 3302. 表达式求值](./chapter2/acwing3302.go)
   - 队列
-    - AcWing 829. 模拟队列
+    - [AcWing 829. 模拟队列](./chapter2/acwing829.go)
   - 单调栈
-    - AcWing 830. 单调栈
+    - [AcWing 830. 单调栈](./chapter2/acwing830.go)
   - 单调队列
-    - AcWing 154. 滑动窗口
+    - [AcWing 154. 滑动窗口](./chapter2/acwing154.go)
   - KMP
     - AcWing 831. KMP字符串
   - Trie
-    - AcWing 835. Trie字符串统计
+    - [AcWing 835. Trie字符串统计](./chapter2/acwing835.go)
     - AcWing 143. 最大异或和
   - 并查集
-    - AcWing 836. 合并集合
-    - AcWing 836. 连通块中点的数量
+    - [AcWing 836. 合并集合](./chapter2/acwing836.go)
+    - [AcWing 837. 连通块中点的数量](./chapter2/acwing837.go)
     - AcWing 240. 食物链
   - 堆
-    - AcWing 838. 堆排序
+    - [AcWing 838. 堆排序](./chapter2/acwing838.go)
     - AcWing 839. 模拟堆
   - 哈希表
     - AcWing 840. 模拟散列表
-    - AcWing 841. 字符串哈希
+    - [AcWing 841. 字符串哈希](./chapter2/acwing841.go)
 - 第三讲-搜索与图论
   - DFS
     - AcWing 842. 排列数字
