@@ -3,7 +3,7 @@ AcWing算法基础课的Golang实现
 
 # Golang算法模板
 感谢灵神的Golang算法模板，对我提供了很大的帮助！   
-https://github.com/EndlessCheng/codeforces-go/tree/master
+https://github.com/EndlessCheng/codeforces-go
 
 # 目录
 - 第一讲-基础知识
