@@ -138,7 +138,7 @@ https://github.com/EndlessCheng/codeforces-go
     - [AcWing 2. 01背包问题](./chapter5/acwing2.go)
     - [AcWing 3. 完全背包问题](./chapter5/acwing3.go)
     - [AcWing 4. 多重背包问题](./chapter5/acwing4.go)
-    - [ACWing 5. 多重背包问题2](./chapter5/acwing5.go)
+    - [ACWing 5. 多重背包问题 II](./chapter5/acwing5.go)
     - [AcWing 9. 分组背包问题](./chapter5/acwing9.go)
   - 线性DP
     - [AcWing 898. 数字三角形](./chapter5/acwing898.go)
