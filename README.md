@@ -173,4 +173,4 @@ https://github.com/EndlessCheng/codeforces-go
   - 绝对值不等式
     - [AcWing 104. 货仓选址](./chapter6/./acwing104.go)
   - 推公式
-    - AcWing 125. 耍杂技的牛
+    - [AcWing 125. 耍杂技的牛](./chapter6/acwing125.go)
