@@ -159,7 +159,7 @@ https://github.com/EndlessCheng/codeforces-go
   - 树形DP
     - AcWing 285. 没有上司的舞会
   - 记忆化搜索
-    - AcWing 901. 滑雪
+    - [AcWing 901. 滑雪](./chapter5/acwing901.go)
 - 第六讲-贪心
   - 区间问题
     - AcWing 905. 区间选点
