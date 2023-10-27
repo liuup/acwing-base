@@ -150,7 +150,7 @@ https://github.com/EndlessCheng/codeforces-go
   - 区间DP
     - [AcWing 282. 石子合并](./chapter5/acwing282.go)
   - 计数类DP
-    - AcWing 900. 整数划分
+    - [AcWing 900. 整数划分](./chapter5/acwing900.go)
   - 数位统计DP
     - [AcWing 338. 计数问题](./chapter5/acwing338.go)
   - 状态压缩DP
