@@ -162,7 +162,7 @@ https://github.com/EndlessCheng/codeforces-go
     - [AcWing 901. 滑雪](./chapter5/acwing901.go)
 - 第六讲-贪心
   - 区间问题
-    - AcWing 905. 区间选点
+    - [AcWing 905. 区间选点](./chapter6/acwing905.go)
     - AcWing 908. 最大不相交区间数量
     - AcWing 906. 区间分组
     - AcWing 907. 区间覆盖
