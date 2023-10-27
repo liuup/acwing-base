@@ -157,7 +157,7 @@ https://github.com/EndlessCheng/codeforces-go
     - [AcWing 291. 蒙德里安的梦想](./chapter5/acwing291.go)
     - [AcWing 91. 最短Hamilton路径](./chapter5/acwing91.go)
   - 树形DP
-    - AcWing 285. 没有上司的舞会
+    - [AcWing 285. 没有上司的舞会](./chapter5/acwing285.go)
   - 记忆化搜索
     - [AcWing 901. 滑雪](./chapter5/acwing901.go)
 - 第六讲-贪心
