@@ -163,7 +163,7 @@ https://github.com/EndlessCheng/codeforces-go
 - 第六讲-贪心
   - 区间问题
     - [AcWing 905. 区间选点](./chapter6/acwing905.go)
-    - AcWing 908. 最大不相交区间数量
+    - [AcWing 908. 最大不相交区间数量](./chapter5/acwing908.go)
     - AcWing 906. 区间分组
     - AcWing 907. 区间覆盖
   - Huffman树
