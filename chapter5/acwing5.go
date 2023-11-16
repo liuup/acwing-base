@@ -1,3 +1,4 @@
+// local runtime version go1.20.2
 package main
 
 import (
@@ -6,15 +7,13 @@ import (
 	"os"
 )
 
-func _debug() {
-	// in := bufio.NewReader(os.Stdin)
+func _solve() {
 	const eof = 0
 	out := bufio.NewWriter(os.Stdout)
 	defer out.Flush()
 	_i, _n, buf := 0, 0, make([]byte, 1<<12) // 4KB
 
-	// 读一个字符
-	rc := func() byte {
+	rc := func() byte { // 读一个字符
 		if _i == _n {
 			_n, _ = os.Stdin.Read(buf)
 			if _n == 0 { // EOF
@@ -27,8 +26,7 @@ func _debug() {
 		return b
 	}
 
-	// 读一个整数，支持负数
-	ri := func() (x int) {
+	ri := func() (x int) { // 读一个整数，支持负数
 		neg := false
 		b := rc()
 		for ; '0' > b || b > '9'; b = rc() {
@@ -48,56 +46,30 @@ func _debug() {
 		}
 		return
 	}
+	_ = []interface{}{ri}
 
-	// 读一个仅包含小写字母的字符串
-	rs := func() (s []byte) {
-		b := rc()
-		for ; 'a' > b || b > 'z'; b = rc() { // 'A' 'Z'
-		}
-		for ; 'a' <= b && b <= 'z'; b = rc() { // 'A' 'Z'
-			s = append(s, b)
-		}
-		return
-	}
-	_ = []interface{}{rc, ri, rs}
+	n, v := ri(), ri()
 
-	// 多重背包
-	n, m := ri(), ri()
+	dp := make([]int, v+1)
 
-	v := make([]int, 20010) // 空间不好判断 手动开大点吧
-	w := make([]int, 20010)
-
-	cnt := 0
 	for i := 1; i <= n; i++ {
-		a, b, s := ri(), ri(), ri()
-
-		k := 1
-		for k <= s {
-			cnt++
-			v[cnt] = a * k
-			w[cnt] = b * k
-			s -= k
-			k *= 2
+		vs, ws, ss := ri(), ri(), ri()
+		for k := 1; k <= ss; k *= 2 {
+			for j := v; j >= k*vs; j-- {
+				dp[j] = max_i(dp[j], dp[j-k*vs]+k*ws)
+			}
+			ss -= k
 		}
-		if s > 0 {
-			cnt++
-			v[cnt] = a * s
-			w[cnt] = b * s
+
+		if ss > 0 {
+			for j := v; j >= ss*vs; j-- {
+				dp[j] = max_i(dp[j], dp[j-ss*vs]+ss*ws)
+			}
 		}
 	}
-	n = cnt
 
-	dp := make([]int, m+10)
-	// 01 bag
-	for i := 1; i <= n; i++ {
-		for j := m; j >= v[i]; j-- {
-			dp[j] = max_i(dp[j], dp[j-v[i]]+w[i])
-		}
-	}
-	fmt.Fprintln(out, dp[m])
+	fmt.Fprintln(out, dp[v])
 }
-
-// 用的比较多 这俩max min先放这吧
 
 func max_i(a, b int) int {
 	if a < b {
@@ -106,13 +78,6 @@ func max_i(a, b int) int {
 	return a
 }
 
-func min_i(a, b int) int {
-	if a < b {
-		return a
-	}
-	return b
-}
-
 func main() {
-	_debug()
+	_solve()
 }
