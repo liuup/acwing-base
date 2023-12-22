@@ -1,5 +1,5 @@
 # acwing-base
-AcWing算法基础课的Golang实现
+AcWing算法基础课的C++/Golang实现
 
 # Golang算法模板
 感谢灵神的Golang算法模板，对我提供了很大的帮助！   
@@ -110,7 +110,7 @@ https://github.com/EndlessCheng/codeforces-go
     - AcWing 873. 欧拉函数
     - AcWing 874. 筛法求欧拉函数
   - 快速幂
-    - AcWing 875. 快速幂
+    - [AcWing 875. 快速幂](./chapter4/acwing875.cpp)
     - AcWing 876. 快速幂求逆元
   - 拓展欧几里得算法
     - AcWing 877. 扩展欧几里得算法
