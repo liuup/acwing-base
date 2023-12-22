@@ -98,7 +98,7 @@ https://github.com/EndlessCheng/codeforces-go
     - [AcWing 861. 二分图的最大匹配](./chapter3/acwing861.go)
 - 第四讲-数学知识
   - 质数
-    - AcWing 866. 试除法判定质数
+    - [AcWing 866. 试除法判定质数](./chapter4/acwing866.cpp)
     - AcWing 867. 分解质因数
     - AcWing 868. 筛质数
   - 约数
