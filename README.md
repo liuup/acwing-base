@@ -105,7 +105,7 @@ https://github.com/EndlessCheng/codeforces-go
     - AcWing 869. 试除法求约数
     - AcWing 870. 约数个数
     - AcWing 871. 约数之和
-    - AcWing 872. 最大公约数
+    - [AcWing 872. 最大公约数](./chapter4/acwing872.cpp)
   - 欧拉函数
     - AcWing 873. 欧拉函数
     - AcWing 874. 筛法求欧拉函数
