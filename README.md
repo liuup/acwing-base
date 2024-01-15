@@ -51,7 +51,7 @@ https://github.com/EndlessCheng/codeforces-go
   - 单调队列
     - [AcWing 154. 滑动窗口](./chapter2/acwing154.go)
   - KMP
-    - AcWing 831. KMP字符串
+    - [AcWing 831. KMP字符串](./chapter2/acwing831.cpp)
   - Trie
     - [AcWing 835. Trie字符串统计](./chapter2/acwing835.go)
     - AcWing 143. 最大异或和
